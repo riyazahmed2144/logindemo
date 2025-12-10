@@ -1,0 +1,84 @@
+.react{
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    background-color: black;
+    height: 85vh;
+}
+.container{
+    background: linear-gradient(to right, rgb(153, 31, 252), rgb(143, 13, 143));
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 60vh;
+    width: 100%;
+    height: 68vh;
+}
+.container h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container p{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.field input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 12px;
+    width: 100%;
+    outline: none;
+}
+.field label{
+    color: aliceblue;
+    top: -42px;
+    position: relative;
+    transition: 0.3s;
+}
+.field input:focus{
+    border-color:  rgb(255, 37, 255);
+}
+.field input:focus+label,
+.field input:not(:placeholder-shown)+label{
+    top: -58px;
+    color:  rgb(255, 37, 255);
+}
+.options{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.options a{
+    color: aliceblue;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    background-color: rgb(255, 37, 255);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(165, 22, 165);
+}
+.signin{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.signin a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 8px;
+}
